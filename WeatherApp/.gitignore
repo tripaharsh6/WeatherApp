@@ -1,0 +1,51 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.env
+.env.*
+!.env.example
+db.sqlite3
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Node / React Native / Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# References (large files / PDFs)
+References/*.pdf
+References/*.png
+
+# Misc
+*.bak
+*.tmp
