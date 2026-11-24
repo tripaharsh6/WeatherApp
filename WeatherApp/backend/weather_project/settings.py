@@ -22,6 +22,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-weather-app-secret-ke
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = [
+    'https://weatherapp-backend-kmuj.onrender.com',
+]
 
 # Application definition
 INSTALLED_APPS = [
